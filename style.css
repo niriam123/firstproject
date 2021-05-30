@@ -1,0 +1,217 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #222;
+    width:100%;
+    margin:0 auto;
+    background-color: white;
+}
+img{
+    width:100%;
+    max-width:100%;
+}
+header{
+    height:60px;
+    line-height: 60px;
+    vertical-align: middle;
+}
+.googletop-right-content{
+    float: right;
+}
+.googletop-right-content ul{
+    margin:0;
+    padding:0;
+}
+.googletop-right-content ul li{
+    display: inline;
+    margin-right: 10px;
+}
+.googletop-right-content ul li a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+    font-weight: 300;
+}
+.googletop-right-content ul li a:hover{
+    text-decoration: underline;
+}
+.googletop-right-content ul li a img.profilepic{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+/* *****************8 Google Main part ************* */
+main{
+    clear: both;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    margin:0 auto 0;
+}
+main .googlelogo img{
+    width:350px;
+    height: auto;
+}
+ input{
+    width:568px;
+    height:40px;
+    border-radius: 50px;
+    color: rgba(0,0,0,.87);
+    outline: none;
+    word-wrap: break-word;
+    padding: 20px;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    position: relative;
+    text-indent: 25px;
+}
+ i.search-icon{
+    position: absolute;
+    z-index: 100;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #9aa0a6;
+}
+img.micro-icon{
+    position: absolute;
+    z-index: 100;
+    margin-left: -28px;
+    margin-top: 13px;
+    width: 12px;
+}
+
+ input:focus,  input:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+.google-btn{
+    margin-top:15px;
+}
+.google-btn button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.google-btn button:hover{
+    border: 1px solid #ddd;
+    outline: none;
+}
+.googleheading{
+    margin-top: 10px;
+}
+.googleheading a{
+    font-size: 13px;
+    color: #1a0dab;
+    text-decoration: none;
+}
+.googleheading a:hover{
+    text-decoration: underline;
+}
+.google-language{
+    margin-top: 40px;
+}
+.google-language span{
+    display: inline;
+}
+.google-language ul {
+    margin:0;
+    padding: 0;
+    display: inline;
+}
+.google-language ul li{
+    display: inline;
+    margin-right:10px;
+}
+.google-language ul li a{
+    color: #1a0dab;
+    text-decoration: none;
+    font-size: 13px;
+}
+.google-language ul li a:hover{
+    text-decoration: underline;
+}
+/*  ************** Footer *********** */
+footer{
+    clear: both;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.googleindia{
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+.googlebottom{
+    background-color:#f2f2f2;
+    vertical-align: middle;
+   height:50px;
+   line-height: 50px;
+    color: rgba(0,0,0,.54);
+    padding:0 30px;
+}
+.googlebottom ul{
+    margin: 0;
+    padding:0;
+}
+.googlebottom ul li{
+    display: inline;
+    margin-right: 10px;
+   
+}
+.googlebottom ul li.left{
+    float: left;
+}
+.googlebottom ul li.right{
+    float: right;
+}
+.googlebottom ul li a{
+   
+    color:#70757a;
+}
+.googlebottom ul li a:hover{
+    text-decoration: underline;
+    
+}
+@media screen and (max-width:768px){
+    main .inputbox{
+        margin: 0 20px;
+    }
+    .inputbox input{
+        width: 100%;
+        margin: 0px auto;
+    }
+}
+@media screen and (max-width:560px){
+    main .googlelogo img{
+        width:300px;
+    }
+    .googlebottom ul li.right{
+        float: left;
+    }
+    .googlebottom{
+        height: 100px;
+    }
+    .googleindia{
+        height: 50px !important;
+    }
+}
